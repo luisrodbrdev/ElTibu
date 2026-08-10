@@ -131,9 +131,12 @@ header nav a:hover {
 }
 
 /* SECCIONES */
-.section {
+
+  .section {
   padding: 70px 5%;
+  scroll-margin-top: 90px; 
 }
+
 .titulo {
   text-align: center;
   font-size: 3.5rem;
@@ -287,7 +290,7 @@ header nav a:hover {
 .oscuro {
   background: var(--azul);
   color: white;
-  border-radius: 40px 40px 0 0;
+  border-radius: 40px;
 }
 .nosotros-box {
   max-width: 800px;
